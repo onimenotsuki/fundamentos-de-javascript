@@ -1,3 +1,9 @@
 {
-  "author": "Edgar Talledos <onimenotsuki@gmail.com>"
+  "author": "Edgar Talledos <onimenotsuki@gmail.com>",
+  "dependencies": {
+    "eslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
 }
