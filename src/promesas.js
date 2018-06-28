@@ -13,3 +13,11 @@ promesa.then(response => {
   .catch(error => {
     console.log(error);
   });
+
+
+async function promesaAsincrona() {
+  const respuesta = await promesa;
+  console.log(respuesta);
+}
+
+promesaAsincrona();
