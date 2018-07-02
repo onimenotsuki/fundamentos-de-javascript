@@ -1,7 +1,8 @@
 {
   "author": "Edgar Talledos <onimenotsuki@gmail.com>",
   "scripts": {
-    "start": "node_modules/.bin/parcel src/index.html -p 8080"
+    "start": "node_modules/.bin/parcel src/index.html -p 8080",
+    "api": "json-server db.json"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
